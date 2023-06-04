@@ -1,0 +1,14 @@
+﻿<Window x:Name="rfid_reader_GUI" x:Class="rfid_reader.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="RFID Reader" Height="450" Width="800">
+    <Canvas x:Name="myCanvas" Background="LightGray">
+        <ComboBox x:Name="comboBoxSerialPortsList" Canvas.Left="138" Canvas.Top="10" Width="120" DropDownOpened="comboBoxSerialPortsList_DropDownOpened" HorizontalAlignment="Left" VerticalAlignment="Top" SelectionChanged="comboBoxSerialPortsList_SelectionChanged"/>
+        <Label Content="Choose a COM Port:" Canvas.Left="10" Canvas.Top="10" FontWeight="Bold"/>
+        <Button x:Name="btnConnect" Content="Connect" Canvas.Left="275" Canvas.Top="10" RenderTransformOrigin="0.109,-0.048" FontWeight="Bold" BorderThickness="1,1,1,1" HorizontalAlignment="Left" VerticalAlignment="Top" Width="68" Click="btnConnect_Click"/>
+        <Button x:Name="btnAddCard" Content="Add a card" Canvas.Left="385" Canvas.Top="10" Click="btnAddCard_Click"/>
+    </Canvas>
+</Window>

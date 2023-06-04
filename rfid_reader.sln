@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33723.286
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rfid_reader", "rfid_reader\rfid_reader.csproj", "{C7BE2601-2AFF-4D42-862A-75BDBD756759}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "rfid_reader_GUI", "rfid_reader_GUI\rfid_reader_GUI.csproj", "{C7BE2601-2AFF-4D42-862A-75BDBD756759}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerialPortController", "SerialPortController\SerialPortController.csproj", "{20C17AC0-2EB5-4F9B-9544-59FBFFC6A967}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rfid_reader_LIB", "rfid_reader_LIB\rfid_reader_LIB.csproj", "{8949ED12-FE2B-451F-BCE4-EAE18C95BE63}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{C7BE2601-2AFF-4D42-862A-75BDBD756759}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C7BE2601-2AFF-4D42-862A-75BDBD756759}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C7BE2601-2AFF-4D42-862A-75BDBD756759}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20C17AC0-2EB5-4F9B-9544-59FBFFC6A967}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20C17AC0-2EB5-4F9B-9544-59FBFFC6A967}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20C17AC0-2EB5-4F9B-9544-59FBFFC6A967}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20C17AC0-2EB5-4F9B-9544-59FBFFC6A967}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8949ED12-FE2B-451F-BCE4-EAE18C95BE63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8949ED12-FE2B-451F-BCE4-EAE18C95BE63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8949ED12-FE2B-451F-BCE4-EAE18C95BE63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8949ED12-FE2B-451F-BCE4-EAE18C95BE63}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

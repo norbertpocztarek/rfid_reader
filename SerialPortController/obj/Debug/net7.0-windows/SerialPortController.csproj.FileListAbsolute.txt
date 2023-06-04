@@ -1,0 +1,12 @@
+C:\Users\norbe\Documents\GitHub\rfid_reader\SerialPortController\bin\Debug\net7.0-windows\SerialPortController.deps.json
+C:\Users\norbe\Documents\GitHub\rfid_reader\SerialPortController\bin\Debug\net7.0-windows\SerialPortController.dll
+C:\Users\norbe\Documents\GitHub\rfid_reader\SerialPortController\bin\Debug\net7.0-windows\SerialPortController.pdb
+C:\Users\norbe\Documents\GitHub\rfid_reader\SerialPortController\obj\Debug\net7.0-windows\SerialPortController.csproj.AssemblyReference.cache
+C:\Users\norbe\Documents\GitHub\rfid_reader\SerialPortController\obj\Debug\net7.0-windows\SerialPortController.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\norbe\Documents\GitHub\rfid_reader\SerialPortController\obj\Debug\net7.0-windows\SerialPortController.AssemblyInfoInputs.cache
+C:\Users\norbe\Documents\GitHub\rfid_reader\SerialPortController\obj\Debug\net7.0-windows\SerialPortController.AssemblyInfo.cs
+C:\Users\norbe\Documents\GitHub\rfid_reader\SerialPortController\obj\Debug\net7.0-windows\SerialPortController.csproj.CoreCompileInputs.cache
+C:\Users\norbe\Documents\GitHub\rfid_reader\SerialPortController\obj\Debug\net7.0-windows\SerialPortController.dll
+C:\Users\norbe\Documents\GitHub\rfid_reader\SerialPortController\obj\Debug\net7.0-windows\refint\SerialPortController.dll
+C:\Users\norbe\Documents\GitHub\rfid_reader\SerialPortController\obj\Debug\net7.0-windows\SerialPortController.pdb
+C:\Users\norbe\Documents\GitHub\rfid_reader\SerialPortController\obj\Debug\net7.0-windows\ref\SerialPortController.dll
