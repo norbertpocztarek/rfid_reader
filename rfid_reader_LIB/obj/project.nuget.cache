@@ -1,8 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "2H0+CVPLMcft/e+oDRs8RCZOQkfsxTQEB0QBLvI03qb7zJuomE6FFYxfpa9o1XltERprKausrbeZm0MgRpbpqg==",
+  "dgSpecHash": "KjqApRAphrIZh/fvNdQ6/AKJcdD5Aq/73/LrKhGnyyMNGzML90WnAAG9XRtYipC+wdkxIKLvHxKuLaKt+0dl8Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\norbe\\Documents\\GitHub\\rfid_reader\\rfid_reader_LIB\\rfid_reader_LIB.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\norbe\\.nuget\\packages\\runtime.linux-arm.runtime.native.system.io.ports\\7.0.0\\runtime.linux-arm.runtime.native.system.io.ports.7.0.0.nupkg.sha512",
+    "C:\\Users\\norbe\\.nuget\\packages\\runtime.linux-arm64.runtime.native.system.io.ports\\7.0.0\\runtime.linux-arm64.runtime.native.system.io.ports.7.0.0.nupkg.sha512",
+    "C:\\Users\\norbe\\.nuget\\packages\\runtime.linux-x64.runtime.native.system.io.ports\\7.0.0\\runtime.linux-x64.runtime.native.system.io.ports.7.0.0.nupkg.sha512",
+    "C:\\Users\\norbe\\.nuget\\packages\\runtime.native.system.io.ports\\7.0.0\\runtime.native.system.io.ports.7.0.0.nupkg.sha512",
+    "C:\\Users\\norbe\\.nuget\\packages\\runtime.osx-arm64.runtime.native.system.io.ports\\7.0.0\\runtime.osx-arm64.runtime.native.system.io.ports.7.0.0.nupkg.sha512",
+    "C:\\Users\\norbe\\.nuget\\packages\\runtime.osx-x64.runtime.native.system.io.ports\\7.0.0\\runtime.osx-x64.runtime.native.system.io.ports.7.0.0.nupkg.sha512",
+    "C:\\Users\\norbe\\.nuget\\packages\\system.io.ports\\7.0.0\\system.io.ports.7.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

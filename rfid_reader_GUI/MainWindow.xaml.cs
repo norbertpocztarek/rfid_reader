@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Input;
+using rfid_reader_LIB;
 
 
 namespace rfid_reader
@@ -17,7 +18,7 @@ namespace rfid_reader
     /// </summary>
     public partial class MainWindow : Window
     {
-        protected SerialPortController _spc;
+        protected RFID_reader reader;
 
         string _selectedSerialPort;
         /// <summary>
@@ -86,7 +87,7 @@ namespace rfid_reader
 
         private async void btnConnect_Click(object sender, RoutedEventArgs e)
         {
-            Task<bool> spConnect = ConnectToSerialPort();
+            Task<bool> spConnect = ConnectToSerialPort2();
             bool isspConnectSuccessful = await spConnect;
             if (!isspConnectSuccessful)
             {
@@ -97,25 +98,16 @@ namespace rfid_reader
             {
             }
 
-            Task<bool> ConnectToSerialPort()
+            Task<bool> ConnectToSerialPort2()
             {
                 Func<bool> action = () =>
                 {
                     if (SelectedSerialPort != null && SelectedSerialPort != "NONE")
                     {
                         //Log("Łączenie z portem " + comboBoxSerialPortsList.Text);
-                        _spc = new SerialPortController(SelectedSerialPort, 57600, Parity.None, 8, StopBits.One);
-                        _spc.OpenPort();
-                        Thread.Sleep(1000);
-                        if (_spc.IsSerialPortOpen())
-                        {
-                            //Log("Połączono z portem " + SelectedSerialPort);
-                            return true;
-                        }
-                        else
-                        {
-                            return false;
-                        }
+                        reader = new RFID_reader(SelectedSerialPort, 57600, Parity.None, 8, StopBits.One);
+                        reader.ConnectToSerialPort();
+                        return true;
                     }
                     return false;
                 };
@@ -127,7 +119,7 @@ namespace rfid_reader
 
         private void btnAddCard_Click(object sender, RoutedEventArgs e)
         {
-            _spc.WriteToPort("dk\r");
+            reader.addOneCard();
         }
     }
 }

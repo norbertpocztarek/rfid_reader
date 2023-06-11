@@ -127,6 +127,23 @@
           }
         }
       },
+      "rfid_reader_LIB/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "SerialPortController": "1.0.0",
+          "System.IO.Ports": "7.0.0"
+        },
+        "compile": {
+          "bin/placeholder/rfid_reader_LIB.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/rfid_reader_LIB.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
       "SerialPortController/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
@@ -331,6 +348,11 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "rfid_reader_LIB/1.0.0": {
+      "type": "project",
+      "path": "../rfid_reader_LIB/rfid_reader_LIB.csproj",
+      "msbuildProject": "../rfid_reader_LIB/rfid_reader_LIB.csproj"
+    },
     "SerialPortController/1.0.0": {
       "type": "project",
       "path": "../SerialPortController/SerialPortController.csproj",
@@ -341,7 +363,8 @@
     "net7.0-windows7.0": [
       "SerialPortController >= 1.0.0",
       "System.IO.Ports >= 7.0.0",
-      "System.Management >= 7.0.1"
+      "System.Management >= 7.0.1",
+      "rfid_reader_LIB >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -377,6 +400,9 @@
         "net7.0-windows7.0": {
           "targetAlias": "net7.0-windows",
           "projectReferences": {
+            "C:\\Users\\norbe\\Documents\\GitHub\\rfid_reader\\rfid_reader_LIB\\rfid_reader_LIB.csproj": {
+              "projectPath": "C:\\Users\\norbe\\Documents\\GitHub\\rfid_reader\\rfid_reader_LIB\\rfid_reader_LIB.csproj"
+            },
             "C:\\Users\\norbe\\Documents\\GitHub\\rfid_reader\\SerialPortController\\SerialPortController.csproj": {
               "projectPath": "C:\\Users\\norbe\\Documents\\GitHub\\rfid_reader\\SerialPortController\\SerialPortController.csproj"
             }

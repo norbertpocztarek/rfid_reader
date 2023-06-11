@@ -45,11 +45,15 @@ C:\Users\norbe\Documents\GitHub\rfid_reader\rfid_reader_GUI\bin\Debug\net7.0-win
 C:\Users\norbe\Documents\GitHub\rfid_reader\rfid_reader_GUI\bin\Debug\net7.0-windows\runtimes\unix\lib\net7.0\System.IO.Ports.dll
 C:\Users\norbe\Documents\GitHub\rfid_reader\rfid_reader_GUI\bin\Debug\net7.0-windows\runtimes\win\lib\net7.0\System.IO.Ports.dll
 C:\Users\norbe\Documents\GitHub\rfid_reader\rfid_reader_GUI\bin\Debug\net7.0-windows\runtimes\win\lib\net7.0\System.Management.dll
+C:\Users\norbe\Documents\GitHub\rfid_reader\rfid_reader_GUI\bin\Debug\net7.0-windows\rfid_reader_LIB.dll
+C:\Users\norbe\Documents\GitHub\rfid_reader\rfid_reader_GUI\bin\Debug\net7.0-windows\SerialPortController.dll
+C:\Users\norbe\Documents\GitHub\rfid_reader\rfid_reader_GUI\bin\Debug\net7.0-windows\rfid_reader_LIB.pdb
+C:\Users\norbe\Documents\GitHub\rfid_reader\rfid_reader_GUI\bin\Debug\net7.0-windows\SerialPortController.pdb
 C:\Users\norbe\Documents\GitHub\rfid_reader\rfid_reader_GUI\obj\Debug\net7.0-windows\rfid_reader_GUI.csproj.AssemblyReference.cache
+C:\Users\norbe\Documents\GitHub\rfid_reader\rfid_reader_GUI\obj\Debug\net7.0-windows\MainWindow.baml
 C:\Users\norbe\Documents\GitHub\rfid_reader\rfid_reader_GUI\obj\Debug\net7.0-windows\MainWindow.g.cs
 C:\Users\norbe\Documents\GitHub\rfid_reader\rfid_reader_GUI\obj\Debug\net7.0-windows\App.g.cs
 C:\Users\norbe\Documents\GitHub\rfid_reader\rfid_reader_GUI\obj\Debug\net7.0-windows\rfid_reader_GUI_MarkupCompile.cache
-C:\Users\norbe\Documents\GitHub\rfid_reader\rfid_reader_GUI\obj\Debug\net7.0-windows\MainWindow.baml
 C:\Users\norbe\Documents\GitHub\rfid_reader\rfid_reader_GUI\obj\Debug\net7.0-windows\rfid_reader_GUI.g.resources
 C:\Users\norbe\Documents\GitHub\rfid_reader\rfid_reader_GUI\obj\Debug\net7.0-windows\rfid_reader_GUI.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\norbe\Documents\GitHub\rfid_reader\rfid_reader_GUI\obj\Debug\net7.0-windows\rfid_reader_GUI.AssemblyInfoInputs.cache
@@ -61,5 +65,3 @@ C:\Users\norbe\Documents\GitHub\rfid_reader\rfid_reader_GUI\obj\Debug\net7.0-win
 C:\Users\norbe\Documents\GitHub\rfid_reader\rfid_reader_GUI\obj\Debug\net7.0-windows\rfid_reader_GUI.pdb
 C:\Users\norbe\Documents\GitHub\rfid_reader\rfid_reader_GUI\obj\Debug\net7.0-windows\rfid_reader_GUI.genruntimeconfig.cache
 C:\Users\norbe\Documents\GitHub\rfid_reader\rfid_reader_GUI\obj\Debug\net7.0-windows\ref\rfid_reader_GUI.dll
-C:\Users\norbe\Documents\GitHub\rfid_reader\rfid_reader_GUI\bin\Debug\net7.0-windows\SerialPortController.dll
-C:\Users\norbe\Documents\GitHub\rfid_reader\rfid_reader_GUI\bin\Debug\net7.0-windows\SerialPortController.pdb

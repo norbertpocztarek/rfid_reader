@@ -1,0 +1,15 @@
+C:\Users\norbe\Documents\GitHub\rfid_reader\rfid_reader_LIB\bin\Debug\net7.0-windows\rfid_reader_LIB.deps.json
+C:\Users\norbe\Documents\GitHub\rfid_reader\rfid_reader_LIB\bin\Debug\net7.0-windows\rfid_reader_LIB.dll
+C:\Users\norbe\Documents\GitHub\rfid_reader\rfid_reader_LIB\bin\Debug\net7.0-windows\rfid_reader_LIB.pdb
+C:\Users\norbe\Documents\GitHub\rfid_reader\rfid_reader_LIB\bin\Debug\net7.0-windows\SerialPortController.dll
+C:\Users\norbe\Documents\GitHub\rfid_reader\rfid_reader_LIB\bin\Debug\net7.0-windows\SerialPortController.pdb
+C:\Users\norbe\Documents\GitHub\rfid_reader\rfid_reader_LIB\obj\Debug\net7.0-windows\rfid_reader_LIB.csproj.AssemblyReference.cache
+C:\Users\norbe\Documents\GitHub\rfid_reader\rfid_reader_LIB\obj\Debug\net7.0-windows\rfid_reader_LIB.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\norbe\Documents\GitHub\rfid_reader\rfid_reader_LIB\obj\Debug\net7.0-windows\rfid_reader_LIB.AssemblyInfoInputs.cache
+C:\Users\norbe\Documents\GitHub\rfid_reader\rfid_reader_LIB\obj\Debug\net7.0-windows\rfid_reader_LIB.AssemblyInfo.cs
+C:\Users\norbe\Documents\GitHub\rfid_reader\rfid_reader_LIB\obj\Debug\net7.0-windows\rfid_reader_LIB.csproj.CoreCompileInputs.cache
+C:\Users\norbe\Documents\GitHub\rfid_reader\rfid_reader_LIB\obj\Debug\net7.0-windows\rfid_reader_LIB.csproj.CopyComplete
+C:\Users\norbe\Documents\GitHub\rfid_reader\rfid_reader_LIB\obj\Debug\net7.0-windows\rfid_reader_LIB.dll
+C:\Users\norbe\Documents\GitHub\rfid_reader\rfid_reader_LIB\obj\Debug\net7.0-windows\refint\rfid_reader_LIB.dll
+C:\Users\norbe\Documents\GitHub\rfid_reader\rfid_reader_LIB\obj\Debug\net7.0-windows\rfid_reader_LIB.pdb
+C:\Users\norbe\Documents\GitHub\rfid_reader\rfid_reader_LIB\obj\Debug\net7.0-windows\ref\rfid_reader_LIB.dll
