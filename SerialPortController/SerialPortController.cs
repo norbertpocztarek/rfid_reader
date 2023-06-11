@@ -3,13 +3,14 @@
 using System;
 using System.IO.Ports;
 
-public class SerialPortController
+public class SerialPortController : IDisposable
 {
     private SerialPort _serialPort;
+    private bool _disposed;
 
     string _connectedSerialPortName;
     /// <summary>
-    /// get connected COM port
+    /// Get connected COM port
     /// </summary>
     public string ConnectedSerialPortName
     {
@@ -58,7 +59,7 @@ public class SerialPortController
     }
 
     /// <summary>
-    /// Return is Serial Port Open
+    /// Return if Serial Port is open
     /// </summary>
     /// <returns></returns>
     public bool IsSerialPortOpen()
@@ -72,5 +73,40 @@ public class SerialPortController
             return false;
         }
     }
-}
 
+    public void Dispose()
+    {
+        Dispose(true);
+        GC.SuppressFinalize(this);
+    }
+
+    protected virtual void Dispose(bool disposing)
+    {
+        if (!_disposed)
+        {
+            if (disposing)
+            {
+                // Release managed resources
+                if (_serialPort != null)
+                {
+                    if (_serialPort.IsOpen)
+                    {
+                        _serialPort.Close();
+                    }
+                    _serialPort.Dispose();
+                    _serialPort = null;
+                }
+            }
+
+            // Release unmanaged resources
+            // ...
+
+            _disposed = true;
+        }
+    }
+
+    ~SerialPortController()
+    {
+        Dispose(false);
+    }
+}
